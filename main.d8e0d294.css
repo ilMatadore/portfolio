@@ -4885,6 +4885,14 @@ body.white {
 .btn-danger:hover {
   background-position: 50%;
 }
+
+.skill {
+  background-color: #ffc0b5;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 1px 1px 10px #cacaca;
+}
 .h5,
 h5 {
   font-family: Lato, Helvetica, Arial, sans-serif;
