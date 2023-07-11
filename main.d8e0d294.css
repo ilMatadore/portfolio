@@ -809,6 +809,24 @@ pre code {
   margin-left: -15px;
   margin-right: -15px;
 }
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+.fill img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%
+}
+
 .row:after,
 .row:before {
   content: " ";
@@ -4887,11 +4905,14 @@ body.white {
 }
 
 .skill {
-  background-color: #ffc0b5;
+  /* background-color: #ffc0b5; */
   padding: 10px;
   border-radius: 20px;
   text-align: center;
   box-shadow: 1px 1px 10px #cacaca;
+  height: 75px;
+  margin: 5px;
+  width: 80px;
 }
 .h5,
 h5 {
